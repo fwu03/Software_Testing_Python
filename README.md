@@ -24,7 +24,7 @@ The repository includes the following functions:
 |ID|Function|Description|
 |--|--|--|
 |1|binary_search(x, list)|Search if the value `x` exists in the `list`, and return a list contains: `TRUE/FALSE` depends on whether the `x` value has been found, `x` value, and `x` position indice in `list`|
-|2|flatten_list_prime(list)|This function takes an input list and returns a flat list that contains only prime numbers.  For example, the list `list(c(1, 2), c(3, 4))` would be flattened to the list `list(3)`.|
+|2|flatten_list_prime(list)|This function takes an input list and returns a flat list that contains only prime numbers.  For example, the list `[[1, 2], [3, 4]]` would be flattened to the list `[3]`.|
 |3|find_prime(list)| Return the largest prime number for a given list.|
 
 ## Python Environment
