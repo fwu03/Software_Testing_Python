@@ -9,7 +9,7 @@ In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
 Everyone involved in mlist
-agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md).
+agrees to abide by our [code of conduct](CONDUCT.md).
 
 ## How to Contribute
 
@@ -98,5 +98,5 @@ Attribution of the Contributing file: [Software Carpentry CONTRIBUTING.md](https
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/UBC-MDS/mlist_R/issues
-[repo]: https://github.com/UBC-MDS/mlist_R
+[issues]: https://github.com/UBC-MDS/mlist_Python/issues
+[repo]: https://github.com/UBC-MDS/mlist_Python
