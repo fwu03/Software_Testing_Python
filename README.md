@@ -33,7 +33,7 @@ The repository includes the following functions:
 
 2. flatten_list_prime(list): In the Python environment, there is a library called [Itertool functions](https://docs.python.org/2/library/itertools.html#itertools.chain) that allows for flattening list, but it does not select for prime numbers.
 
-3. find_prime(list): There is no function that find the largest prime within a list, but there is similar function in Python environment.
+3. find_prime(list): There is no function that find the largest prime within a list in the Python environment.
 
 ## Dependencies
 
