@@ -1,16 +1,18 @@
-# flatten_list.py
+# flatten_list_prime.py
 
-print('flatten_list')
-
-def flatten_list(l):
+def flatten_list_prime(l):
     """
-    Flattens a list so that elements in embedded lists are returned in 
-    a flat list
+    Flattens a list so that all prime numbers in embedded lists are 
+        returned in a flat list
     
     Parameters:
-        - l: the list to flatten
+        - l: a list of numbers; largest prime cannot be greater than 1000
     
     Returns:
-        - flat_l: a flattened version of l
+        - flat_l: a flat list that has all the prime numbers in l
+        
+    Examples:
+        a = [[2, 3, 4, 5], 19, [131, 127]]
+        flatten_list_prime(a) # returns [2, 3, 5, 19, 131, 127]
     """
     pass
