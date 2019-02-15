@@ -24,7 +24,11 @@ def test_values():
         mlist.binary_search(3, [1,3,25,36,800,5550])  # return ERROR if input lst contains values over 1000
 
 def test_output():
-    assert mlist.binary_search(3, [1,2,3,4]) == [TRUE, 3, 4 ] # assert return contain correct values
-    assert mlist.binary_search(3, [1,2,4]) == [FALSE, 3, 0 ] # assert return contain correct values
-    assert type(mlist.binary_search(3, [1,2,3,4]) == "list" # assert return is a list
-    assert length(mlist.binary_search([[12,5], [2,3]])) == 3  # assert return length is 3
+    # assert return contain correct values
+    assert mlist.binary_search(3, [1,2,3,4]) == [TRUE,2,4], "Assertion Failed, the output is wrong"
+    # assert return contain correct values
+    assert mlist.binary_search(3, [1,2,4]) == [FALSE,3,0], "Assertion Failed, the output is wrong"
+    # assert return is a list
+    assert type(mlist.binary_search(3, [1,2,3,4]) == "list", "Assertion Failed, the output should be a list"
+    # assert return length is 3
+    assert length(mlist.binary_search([[12,5], [2,3]])) == 3, "Assertion Failed, the output has incorrect length"
