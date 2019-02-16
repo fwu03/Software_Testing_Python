@@ -11,7 +11,8 @@
 ## Versions
 | Document | Description |
 |-|-|
-| [Milestone 1](../master/README.md) | Project Proposal |
+| [Milestone 1](https://github.com/UBC-MDS/mlist_Python/tree/v1.0) | Project Proposal |
+| [Milestone 2](../master/README.md) | Milestone 2l |
 
 ## Package Overview
 
