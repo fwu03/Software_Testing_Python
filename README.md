@@ -38,14 +38,12 @@ The `mlist` package can be installed through `pip` by running the following comm
 
 ```
 pip install git+https://github.com/UBC-MDS/mlist_Python.git
-
 ```
 
 For further updates of the package, please enter the following command:
 
 ```
 pip install --upgrade git+https://github.com/UBC-MDS/mlist_Python.git
-
 ```
 
 ## Usage
@@ -53,14 +51,12 @@ To import the package using:
 
 ```
 import mlist
-
 ```
 
 To import the functions using:
 
 ```
 from mlist import binary_search, flatten_list_prime, find_prime
-
 ```
 
 ## Dependencies
