@@ -43,9 +43,12 @@ def binary_search(x, lst):
     # Raise error if input lst contains values greater or equal to 1000
     if max(lst) >= 1000:
         raise ValueError("Input lst contains values exceed 1000. Please limit range of input values to less than 1000.")
-
+    
+    if x >= 1000:
+        raise ValueError("Input x exceeds 1000. Please limit range of input value to less than 1000.")
+        
     # Raise error if input lst is not sorted
-    if lst != sorted(list):
+    if lst != sorted(lst):
         raise ValueError("Input lst must be sorted.")
     
     # ---------------------------
