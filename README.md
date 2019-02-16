@@ -22,7 +22,7 @@ Python provides lots of tools to manipulate lists. In this package, we will impl
 |ID|Function|Description|Arguments|Example|
 |--|--|--|--|--|
 |1|binary_search(x, lst)|Search if the value `x` exists in the `lst`, and return a list contains: `TRUE/FALSE` depends on whether the `x` value has been found, `x` value, and `x` position indices in `lst`.|x: numeric, lst: sorted list of numerics|binary_search(4, [1,2,3,4,5,6])|
-|2|flatten_list_prime(l)|This function takes an input list and returns a flat list that contains only prime numbers.|l: a list of integers|[[2, 3, 4, 5], 19, [131, 127]]|
+|2|flatten_list_prime(l)|This function takes an input list and returns a flat list that contains only prime numbers.|l: a list of integers|flatten_list_prime([[2, 3, 4, 5], 19, [131, 127]])|
 |3|find_prime(x)| Return the largest prime number for a given list.|x : a list of integer|find_prime([0,1,2,3,4,5])|
 
 ## Python Environment
