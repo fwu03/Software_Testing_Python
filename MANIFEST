@@ -7,4 +7,3 @@ mlist\flatten_list_prime.py
 mlist\test\test_binary_search.py
 mlist\test\test_find_primes.py
 mlist\test\test_flatten_list_prime.py
-mlist\test\test_flatten_list_prime_backup.py
