@@ -19,27 +19,27 @@ def test_non_list():
     """
     Should raise an error for list containing non-integers
     """
-    with pytest.raises(TypeError("Input must be list of intergers")):
+    with pytest.raises(TypeError):
         find_prime.find_prime('abcded')
 
 def test_one_prime():
     """
     Should find the single prime in a list with only one prime and return a list
     """
-    assert find_prime.find_prime([12, 18, 20.22, 11]) == [11]
+    assert find_prime.find_prime([12, 18, 11]) == 11
 
 def test_only_non_ints():
     """
     Should raise an error for list containing non-integers
     """
-    with pytest.raises(TypeError("Input must be list of intergers")):
+    with pytest.raises(TypeError):
         find_prime.find_prime([100.19, 999.1938, -1988274783.282, 37572.18])
 
 def test_only_non_ints():
     """
     Should raise an error for list containing integers over 1000
     """
-    with pytest.raises(ValueError("Input values exceed 1000. Please limit range of input values to less than 1000.")):
+    with pytest.raises(ValueError):
         find_prime.find_prime([3,7,5000,2])
 
 def test_multiple_same_primes():
@@ -47,7 +47,7 @@ def test_multiple_same_primes():
     Should return the single prime number in a list with the same prime number
     repeated
     """
-    assert find_prime.find_prime([907, 907, 907, 907, 907, 907, 907]) == [907]
+    assert find_prime.find_prime([907, 907, 907, 907, 907, 907, 907]) == 907
 
 def test_only_prime_big_start():
     """
