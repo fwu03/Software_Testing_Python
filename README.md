@@ -12,7 +12,7 @@
 | Document | Description |
 |-|-|
 | [Milestone 1](https://github.com/UBC-MDS/mlist_Python/tree/v1.0) | Project Proposal |
-| [Milestone 2](../master/README.md) | Milestone 2l |
+| [Milestone 2](../master/README.md) | Milestone 2|
 
 ## Package Overview
 
