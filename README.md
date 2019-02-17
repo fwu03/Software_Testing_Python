@@ -57,7 +57,14 @@ import mlist
 To import the functions using:
 
 ```
-from mlist import binary_search, flatten_list_prime, find_prime
+from mlist.<function name> import <function name>
+```
+For examples:
+
+```
+from mlist.binary_search import binary_search
+from mlist.flatten_list_prime import flatten_list_prime
+from mlist.find_prime import find_prime
 ```
 
 ## Dependencies
