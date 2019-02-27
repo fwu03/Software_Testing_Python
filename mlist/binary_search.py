@@ -24,7 +24,7 @@ def binary_search(x, lst):
       >>> [TRUE,4,3]
 
       binary_search(5, [10,100,200,300])
-      >>> [FALSE,5,0]
+      >>> [FALSE,5,None]
 
     '''
     # Raise error if input x is not integer
@@ -57,7 +57,7 @@ def binary_search(x, lst):
     
     # Empty list
     if len(lst) == 0:
-        return [False, x, 0]
+        return [False, x, None]
     
     low = 0
     high = len(lst)-1
@@ -70,4 +70,4 @@ def binary_search(x, lst):
             high = mid - 1
         else:
             return [True, x, mid]
-    return [False, x, 0]
+    return [False, x, None]
