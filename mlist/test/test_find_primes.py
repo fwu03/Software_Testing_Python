@@ -28,7 +28,7 @@ def test_one_prime():
     """
     assert find_prime.find_prime([12, 18, 11]) == 11
 
-def test_only_non_ints():
+def test_only_non_ints1():
     """
     Should raise an error for list containing non-integers
     """
