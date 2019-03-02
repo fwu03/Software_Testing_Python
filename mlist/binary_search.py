@@ -53,11 +53,7 @@ def binary_search(x, lst):
     
     # ---------------------------
     # Binary Search Algorithm
-    # ---------------------------
-    
-    # Empty list
-    if len(lst) == 0:
-        return [False, x, None]
+    # ---------------------------    
     
     low = 0
     high = len(lst)-1
