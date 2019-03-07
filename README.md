@@ -1,4 +1,6 @@
 [![Travis build status](https://travis-ci.org/UBC-MDS/mlist_Python.svg?branch=master)](https://travis-ci.org/UBC-MDS/mlist_Python)
+[![codecov status](https://codecov.io/gh/UBC-MDS/mlist_Python/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/mlist_Python)
+
 
 # mlist
 
