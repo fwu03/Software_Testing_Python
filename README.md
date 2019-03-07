@@ -1,3 +1,5 @@
+[![Travis build status](https://travis-ci.org/UBC-MDS/mlist_Python.svg?branch=master)](https://travis-ci.org/UBC-MDS/mlist_Python)
+
 # mlist
 
 ## Contributors
@@ -72,7 +74,7 @@ from mlist.find_prime import find_prime
 - Python version 3.6.5
 - Python packages:
   + pytest, including the pytest-cov plugin
-  
+
 ## Branch Coverage
 The tests in the `test` folder provide 100% branch coverage for all three functions.  Below is a screenshot of the pytest report:
 ![branch coverage](branch_coverage.png)
