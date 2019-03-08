@@ -1,0 +1,3 @@
+python_version>='3.6'
+pytest
+git+https://github.com/UBC-MDS/mlist_Python.git
