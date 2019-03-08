@@ -71,8 +71,11 @@ from mlist.flatten_list_prime import flatten_list_prime
 from mlist.find_prime import find_prime
 
 binary_search(4, [1,2,3,4,5,6])
+>>> [TRUE,4,3]
 find_prime([0,1,2,3,4,5])
+>>> 5
 flatten_list_prime([[2, 3, 4, 5], 19, [131, 127]])
+>>> [2, 3, 5, 19, 131, 127]
 
 ```
 
