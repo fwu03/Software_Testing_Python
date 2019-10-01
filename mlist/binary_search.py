@@ -24,28 +24,36 @@ def binary_search(x, lst):
       >>> [TRUE,4,3]
 
       binary_search(5, [10,100,200,300])
-      >>> [FALSE,5,0]
+      >>> [FALSE,5,None]
 
     '''
-    # Raise error if input not a list
+    # Raise error if input x is not integer
+    if type(x) != int:
+        raise TypeError("Input x must be an integer.")
+    
+    # Raise error if input lst not a list
     if type(lst) != list:
-        raise TypeError("Input must be a list")
+        raise TypeError("Input lst must be a list.")
 
-    # Raise error if input is not integer (eg. float, string...)
+    # Raise error if input lst contains non-integer (eg. float, string...)
     for i in lst:
         if type(i) != int:
-            raise TypeError("Input must be list of intergers")
+            raise TypeError("Input lst must be list of intergers.")
             
-    # Raise error if input values less than 1000
+    # Raise error if input lst contains values greater or equal to 1000
     if max(lst) >= 1000:
-        raise ValueError("Input values exceed 1000. Please limit range of input values to less than 1000.")
+        raise ValueError("Input lst contains values exceed 1000. Please limit range of input values to less than 1000.")
     
+    if x >= 1000:
+        raise ValueError("Input x exceeds 1000. Please limit range of input value to less than 1000.")
+        
+    # Raise error if input lst is not sorted
+    if lst != sorted(lst):
+        raise ValueError("Input lst must be sorted.")
     
-    #binary search algorithm
-    #empty list
-    if len(lst) == 0:
-        return [False, x, 0]
-    
+    # ---------------------------
+    # Binary Search Algorithm
+    # ---------------------------    
     
     low = 0
     high = len(lst)-1
@@ -58,4 +66,4 @@ def binary_search(x, lst):
             high = mid - 1
         else:
             return [True, x, mid]
-    return [False, x, 0]
+    return [False, x, None]
